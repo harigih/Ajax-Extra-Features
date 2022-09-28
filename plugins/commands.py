@@ -40,25 +40,25 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
 
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
             ],[
 
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/tamilhb'),
+            InlineKeyboardButton('💠 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💠', url='https://t.me/tamilhb'),
 
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+AaJO1Ej6T441YjQ1')
+            InlineKeyboardButton('💠 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 💠', url='https://t.me/+AaJO1Ej6T441YjQ1')
 
             ],[      
 
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+            InlineKeyboardButton('💠 𝙷𝙴𝙻𝙿 💠', callback_data='help'),
 
-            InlineKeyboardButton('CONTACT ME', url='https://t.me/Hari_OP'),
+            InlineKeyboardButton('💠 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝙴 💠', url='https://t.me/Hari_OP'),
 
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('💠 𝙰𝙱𝙾𝚄𝚃 💠', callback_data='about')
 
             ],[
 
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCj9rAtz7yI2OD84mSM2KJdQ')
+            InlineKeyboardButton('💠 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 💠', url='https://youtube.com/channel/UCj9rAtz7yI2OD84mSM2KJdQ')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
@@ -95,25 +95,25 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
 
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
             ],[
 
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/tamilhb'),
+            InlineKeyboardButton('💠 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💠', url='https://t.me/tamilhb'),
 
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+AaJO1Ej6T441YjQ1')
+            InlineKeyboardButton('💠 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 💠', url='https://t.me/+AaJO1Ej6T441YjQ1')
 
             ],[      
 
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+            InlineKeyboardButton('💠 𝙷𝙴𝙻𝙿 💠', callback_data='help'),
 
-            InlineKeyboardButton('CONTACT ME', url='https://t.me/Hari_OP'),
+            InlineKeyboardButton('💠 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝙴 💠', url='https://t.me/Hari_OP'),
 
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('💠 𝙰𝙱𝙾𝚄𝚃 💠', callback_data='about')
 
             ],[
 
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCj9rAtz7yI2OD84mSM2KJdQ')
+            InlineKeyboardButton('💠 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 💠', url='https://youtube.com/channel/UCj9rAtz7yI2OD84mSM2KJdQ')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -263,7 +263,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='youtube.com/OpusTechz') ] ] ),
+      
         protect_content=True if pre == 'filep' else False,
         )
                     
