@@ -746,25 +746,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
 
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
             ],[
 
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/ms_new_movies_collection'),
+            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/tamilhb'),
 
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+AaJO1Ej6T441YjQ1')
+            InlineKeyboardButton('💠 ᴜᴩᴅᴀᴛᴇꜱ 💠', url='https://t.me/+AaJO1Ej6T441YjQ1')
 
             ],[      
 
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
+            InlineKeyboardButton('💠 ʜᴇʟᴩ 💠', callback_data='help'),
 
-            InlineKeyboardButton('CONTACT ME', url='https://t.me/ms_alone1'),
+            InlineKeyboardButton('💠 ᴏᴡɴᴇʀ 💠', url='https://t.me/Hari_OP'),
 
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('💠 ᴀʙᴏᴜᴛ 💠', callback_data='about')
 
             ],[
 
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UC_TA8iDJCF9FvRN4YGyDNiA?utm_source=EKLEiJECCKjOmKnC5IiRIQ')
+            InlineKeyboardButton('💠 ꜱᴜʙꜱᴄʀɪʙᴇ 💠', url='https://youtube.com/channel/UCj9rAtz7yI2OD84mSM2KJdQ')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -902,7 +902,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ♥️', url='https://t.me/AboutAadhi')
+            InlineKeyboardButton('♥️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ♥️', url='https://t.me/tamilhb')
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
