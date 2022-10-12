@@ -49,7 +49,7 @@ def song(client, message):
         open(thumb_name, 'wb').write(thumb.content)
 
 
-        performer = f"[ᗩᒍᗩ᙭]" 
+        performer = f"[ʜᴀʀɪ]" 
         duration = results[0]["duration"]
         url_suffix = results[0]["url_suffix"]
         views = results[0]["views"]
@@ -66,7 +66,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉](https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [muѕíc вσч](https://t.me/OPMusicBoy_Bot)**'
+        rep = '**𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [ʜᴀʀɪ-ᴛᴇᴄʜ](https://youtube.com/channel/UCj9rAtz7yI2OD84mSM2KJdQ)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [ᴛᴀᴍɪʟʜʙ](https://t.me/tamilhb)**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
